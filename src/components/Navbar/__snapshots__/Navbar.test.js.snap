@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar />  <Navbar/> snapshot 1`] = `
+<div>
+  <div
+    className="ui inverted secondary top fixed menu"
+  >
+    <div
+      className="ui container"
+    >
+      <a
+        className="link item"
+        href="/"
+        onClick={[Function]}
+      >
+        Rohan
+      </a>
+      <a
+        className="link item"
+        href="/projects"
+        onClick={[Function]}
+      >
+        Projects
+      </a>
+      <div
+        className="right menu"
+      >
+        <a
+          className="link item"
+          href="/About"
+          onClick={[Function]}
+        >
+          About
+        </a>
+        <a
+          className="link item"
+          href="/Contact"
+          onClick={[Function]}
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

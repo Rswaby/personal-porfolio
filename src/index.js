@@ -4,13 +4,17 @@ import './index.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import App from './App';
 import { Navbar } from './components'
+import { About, Contact, Projects } from "./containers"
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <Router>
         <div>
-            <Navbar/>
+            <Navbar />
             <Route exact path="/" component={App} />
+            <Route exact path="/projects" component={Projects}/>
+            <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/about" component={About}/>
         </div>
     </Router>
     ,
