@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import App from './App';
+import { Navbar } from './components'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <Router>
         <div>
-            <Route exact path="/" component={App}/>
+            <Navbar/>
+            <Route exact path="/" component={App} />
         </div>
     </Router>
     ,
