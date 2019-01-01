@@ -6,8 +6,8 @@ export default class Navbar extends Component {
   render() {
 
     return (
-      <div className="Navbar m-b-15">
-        <Segment inverted >
+      <div className="Navbar m-b-35">
+        <Segment inverted size="large" >
           <Menu fixed="top" size="large" inverted>
             <Container>
               <Menu.Item header link as="a" href="/" name='Rohan Swaby' />
