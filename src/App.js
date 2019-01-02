@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Grid, Image, Header } from 'semantic-ui-react'
-import { ProfileCard } from './components';
-import { FetchResumeData } from './fetches';
+import { ProfileCard,WorkExp } from './components';
+import { ResumeContext } from './context/Resume.context';
+// import { FetchResumeData } from './fetches';
 //import resumeData from '../public/'
 
 
 class App extends Component {
+  static contextType = ResumeContext;
   componentWillMount() {
-    FetchResumeData().then(response =>{
-      console.log(response)
-    })
+    // FetchResumeData().then(response =>{
+    //   console.log(response)
+    // })
+    const { resumeData } = this.context;
+    console.log("resumate", resumeData)
   }
   render() {
+    const { resumeData } = this.context;
     return (
       <div className="App p-l-15">
         <Grid>
@@ -29,6 +34,7 @@ class App extends Component {
           </Grid.Row>
           <Header as="h3" textAlign="center"> work Experience </Header>
           <Grid.Row>
+            {resumeData? resumeData.resume.work.map((work,index)=> <WorkExp work={work}/> ) : <h4>loading...</h4>}
           </Grid.Row>
         </Grid>
       </div>

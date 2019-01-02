@@ -6,15 +6,19 @@ import App from './App';
 import { Navbar } from './components'
 import { About, Contact, Projects } from "./containers"
 import * as serviceWorker from './serviceWorker';
+import { ResumeProvider } from './context/Resume.context';
+
 
 ReactDOM.render(
     <Router>
         <div>
-            <Navbar />
-            <Route exact path="/" component={App} />
-            <Route exact path="/projects" component={Projects}/>
-            <Route exact path="/contact" component={Contact}/>
-            <Route exact path="/about" component={About}/>
+            <ResumeProvider>
+                <Navbar />
+                <Route exact path="/" component={App} />
+                <Route exact path="/projects" component={Projects} />
+                <Route exact path="/contact" component={Contact} />
+                <Route exact path="/about" component={About} />
+            </ResumeProvider>
         </div>
     </Router>
     ,

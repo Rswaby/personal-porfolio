@@ -9,10 +9,3 @@ export const FetchResumeData = () =>
     .catch(error => error)
 
 
-//     fetch('./data/data.json')
-// .then((response) => response.json())
-// .then((findresponse)=> {
-//   this.setState({
-//     data:findresponse
-//   })
-// })
