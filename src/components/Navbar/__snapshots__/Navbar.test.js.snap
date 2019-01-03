@@ -2,10 +2,10 @@
 
 exports[`<Navbar />  <Navbar/> snapshot 1`] = `
 <div
-  className="Navbar m-b-15"
+  className="Navbar m-b-35"
 >
   <div
-    className="ui inverted segment"
+    className="ui large inverted segment"
   >
     <div
       className="ui large inverted top fixed menu"

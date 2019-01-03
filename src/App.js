@@ -1,25 +1,42 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Grid, Image, Header } from 'semantic-ui-react'
+import { ProfileCard, WorkExp } from './components';
+import { ResumeContext } from './context/Resume.context';
+// import { FetchResumeData } from './fetches';
+//import resumeData from '../public/'
+
 
 class App extends Component {
+  static contextType = ResumeContext;
+  componentWillMount() {
+    // FetchResumeData().then(response =>{
+    //   console.log(response)
+    // })
+    
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Hello Rohan.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="App p-l-15">
+        <Grid>
+          <Grid.Row>
+            <Grid.Column width={4}>
+              <ProfileCard />
+            </Grid.Column>
+            <Grid.Column width={6}>
+              <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
+            </Grid.Column>
+            <Grid.Column width={3}>
+              <Header as="h2"><p>Skills</p></Header>
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row centered>
+            <Header as="h2" textAlign="center"> <p> Work Experience </p></Header>
+          </Grid.Row>
+          <Grid.Row>
+            {this.context && this.context.resumeData? this.context.resumeData.resume.work.map((work, index) => <WorkExp work={work} />) : <h4>loading...</h4>}
+          </Grid.Row>
+        </Grid>
       </div>
     );
   }

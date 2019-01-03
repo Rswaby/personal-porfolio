@@ -24,9 +24,14 @@
 .zero_margin{
   margin: 0;
 }
-.m-b-15{
-  margin-bottom: 15px;
+.m-b-35{
+  margin-bottom: 35px;
 }
+.p-l-15{
+  padding-left: 15px;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

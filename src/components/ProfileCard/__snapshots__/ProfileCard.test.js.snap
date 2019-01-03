@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar />  <Navbar/> snapshot 1`] = `
+<div
+  className="ui card"
+  onClick={[Function]}
+>
+  <img
+    className="ui image"
+    src="https://res.cloudinary.com/roro-personal/image/upload/v1546480599/IMG_0258.jpg"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      Rohan Swaby
+    </div>
+    <div
+      className="description"
+    >
+      <p>
+        Software Developer at The city College Of New York
+      </p>
+    </div>
+  </div>
+  <div
+    className="extra content"
+  >
+    <i
+      aria-hidden="true"
+      className="graduation icon"
+    />
+    May 2019
+  </div>
+</div>
+`;
