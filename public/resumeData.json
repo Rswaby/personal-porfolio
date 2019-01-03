@@ -1,6 +1,6 @@
 {
     "main": {
-      "name":"Tim Baker",
+      "name":"Rohan Swaby",
       "occupation":"(Your Occupation Here)",
       "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
       "image":"profilepic.jpg",
@@ -59,24 +59,41 @@
         {
           "company":"Bright Power",
           "image":"https://pbs.twimg.com/profile_images/634075551964106752/pBN6np7z_400x400.jpg",
-          "title":"Software Developer",
+          "title":"Software Developer Intern",
           "years":"Jan 2017 - August 2017",
-          "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "stack": [
+            {"name":"Java"},
+            {"name":"Python"},
+            {"name":"Spring boot"},
+            {"name":"testing: JUnit, Mockito"}
+          ],
+          "description":"During My Time at Bright Power some of my Responsibilities including Writing unit testing for Spring MVC application for REST controllers using JUnit, Mockito. I also Created test suite for newly created API services using postman to examine performance. I Conducted other QA responsibilities such as regression/feature testing in order to identify Defects in pre-released software. One project I worked on creating and maintaining a data scraping tool using selenium and beautifulsoup for internal use."
         },
         {
           "company":"Cuny Tech Prep",
           "title":"Software Developer",
           "image":"https://cunytechprep.nyc/c2images/otherImages/ttp.png",
           "years":"Aug 2018 - present",
-          "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "stack": [
+            {"name":"ReactJs"},
+            {"name":"contextJS"},
+            {"name":"testing: Jest, Enzyme"}
+          ],
+          "description":"It was an honor to be selected for a full stack JavaScript training program, as one of 122 students out of 400+ applicants Learn in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployment such as MVC, version control with Git/GitHub, agile & Scrum with Trello and Slack, test driven development, and CI/CD."
         },
         {
           "company":"Sporta",
           "title":"Software Developer",
           "image":"https://static1.squarespace.com/static/55ea2481e4b0902fc052322c/t/5acd0863562fa79982e6137b/1523388500949/SportaBlack.png?format=300w",
           "years":"Jun 2018 - Sep 2018",
-          "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "description":"During my time at Sporta I created and maintained our web application that enables people to find recreational sports teams and leagues  in their area using React, Redux, and Django.We Also Followed the Scrum development methodology to complete features.",
+          "stack": [
+            {"name":"ReactJs"},
+            {"name":"ReduxJs"},
+            {"name":"testing: Jest, Enzyme"}
+          ]
         }
+
       ],
       "skills":[
         {
