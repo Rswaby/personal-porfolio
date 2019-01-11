@@ -18,3 +18,20 @@ code {
 p {
   font-family: "Times New Roman", Times, serif;
 }
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.divider{
+  position:absolute;
+  left:50%;
+  top:10%;
+  bottom:10%;
+  border-left:1px solid black;
+}

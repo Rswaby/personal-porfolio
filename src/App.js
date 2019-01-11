@@ -26,7 +26,8 @@ class App extends Component {
             <Grid.Column width={6}>
               <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
             </Grid.Column>
-            <Grid.Column width={3}>
+            <Grid.Column className="" width={3}>
+            {/* <div className="divider"></div> */}
               <Header as="h2"><p>Skills</p></Header>
             </Grid.Column>
           </Grid.Row>
