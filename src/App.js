@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Grid, Image, Header } from 'semantic-ui-react'
+import { Grid, Header } from 'semantic-ui-react'
 import { ProfileCard, WorkExp } from './components';
 import { ResumeContext } from './context/Resume.context';
 // import { FetchResumeData } from './fetches';
@@ -23,12 +23,8 @@ class App extends Component {
             <Grid.Column width={4}>
               <ProfileCard />
             </Grid.Column>
-            <Grid.Column width={6}>
-              <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
-            </Grid.Column>
-            <Grid.Column className="" width={3}>
-            {/* <div className="divider"></div> */}
-              <Header as="h2"><p>Skills</p></Header>
+            <Grid.Column className="" width={8}>
+              <Header as="h2" textAlign="center"><p>Skills</p></Header>
             </Grid.Column>
           </Grid.Row>
           <Grid.Row centered>
