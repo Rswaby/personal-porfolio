@@ -59,7 +59,7 @@
         {
           "company":"Bright Power",
           "image":"https://pbs.twimg.com/profile_images/634075551964106752/pBN6np7z_400x400.jpg",
-          "title":"Software Developer Intern",
+          "title":"Software Engineer Intern",
           "years":"Jan 2017 - August 2017",
           "stack": [
             {"name":"Java"},
@@ -71,7 +71,7 @@
         },
         {
           "company":"Cuny Tech Prep",
-          "title":"Software Developer",
+          "title":"Software Engineer",
           "image":"https://cunytechprep.nyc/c2images/otherImages/ttp.png",
           "years":"Aug 2018 - present",
           "stack": [
@@ -83,7 +83,7 @@
         },
         {
           "company":"Sporta",
-          "title":"Software Developer",
+          "title":"Software Engineer",
           "image":"https://static1.squarespace.com/static/55ea2481e4b0902fc052322c/t/5acd0863562fa79982e6137b/1523388500949/SportaBlack.png?format=300w",
           "years":"Jun 2018 - Sep 2018",
           "description":"During my time at Sporta I created and maintained our web application that enables people to find recreational sports teams and leagues  in their area using React, Redux, and Django.We Also Followed the Scrum development methodology to complete features.",
