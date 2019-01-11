@@ -21,6 +21,7 @@ exports[`<Navbar />  <Navbar/> snapshot 1`] = `
     >
       Bright Power
     </h3>
+    <hr />
     <div
       className="ui text fluid left aligned container"
     >
@@ -31,6 +32,20 @@ exports[`<Navbar />  <Navbar/> snapshot 1`] = `
   </div>
   <div
     className="three wide column"
-  />
+  >
+    <h4
+      className="sub header"
+      textAlign="left"
+    >
+       
+      <p>
+        Role
+      </p>
+    </h4>
+    <hr />
+    <p>
+      Software Developer Intern
+    </p>
+  </div>
 </div>
 `;
