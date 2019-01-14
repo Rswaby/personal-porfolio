@@ -2,7 +2,7 @@
 
 exports[`<Navbar />  <Navbar/> snapshot 1`] = `
 <div
-  className="ui card"
+  className="ui fluid card"
   onClick={[Function]}
 >
   <img
@@ -21,7 +21,7 @@ exports[`<Navbar />  <Navbar/> snapshot 1`] = `
       className="description"
     >
       <p>
-        Software Developer at The city College Of New York
+        Software Engineer at The city College Of New York
       </p>
     </div>
   </div>

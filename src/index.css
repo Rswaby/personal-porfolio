@@ -35,3 +35,11 @@ hr {
   bottom:10%;
   border-left:1px solid black;
 }
+
+.profileCard-width{
+  width: 440px;
+}
+
+.padding-b-38{
+  margin-bottom: 38px;
+}
