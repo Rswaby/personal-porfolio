@@ -11,13 +11,13 @@ const style = {
         marginBottom: '3em',
     },
     message:{
-        height:'200px',
+        height:'220px',
     },
 }
 const WorkExp = (props) => (
 
     <Grid container style={style.container}>
-            <Grid.Column width={4}>
+            <Grid.Column width={3}>
                 <Image size='small' src={props.work.image} />
             </Grid.Column>
         <Grid.Column className="" width={9} centered>
@@ -29,7 +29,7 @@ const WorkExp = (props) => (
                 </Container>
             </Message>
         </Grid.Column>
-        <Grid.Column className="" width={3}>
+        <Grid.Column className="" width={4}>
             <Message style={style.message}>
                 <Header.Subheader as="h4" textAlign="left"> <p>Role</p></Header.Subheader>
                 <hr />
