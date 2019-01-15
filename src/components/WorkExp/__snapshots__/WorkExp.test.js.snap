@@ -25,6 +25,7 @@ exports[`<Navbar />  <Navbar/> snapshot 1`] = `
       className="ui message"
       style={
         Object {
+          "backgroundColor": "#DFEFF0",
           "height": "220px",
         }
       }
@@ -51,23 +52,18 @@ exports[`<Navbar />  <Navbar/> snapshot 1`] = `
       className="ui message"
       style={
         Object {
+          "backgroundColor": "#DFEFF0",
           "height": "220px",
         }
       }
     >
-      <h4
-        className="sub header"
-        textAlign="left"
-      >
-         
-        <p>
-          Role
-        </p>
-      </h4>
-      <hr />
       <p>
         Software Developer Intern
       </p>
+      <p>
+        Jan 2017 - August 2017
+      </p>
+      <hr />
       <h5
         className="ui header"
       >
@@ -75,6 +71,39 @@ exports[`<Navbar />  <Navbar/> snapshot 1`] = `
           Technologies used:
         </p>
       </h5>
+      <div
+        className="ui bulleted list"
+        role="list"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          Java
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          Python
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          Spring boot
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          testing: JUnit, Mockito
+        </div>
+      </div>
     </div>
   </div>
 </div>
