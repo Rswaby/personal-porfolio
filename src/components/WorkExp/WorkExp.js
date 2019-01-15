@@ -16,6 +16,7 @@ const style = {
         backgroundColor:'#DFEFF0'
     },
 }
+//f8ffff
 const WorkExp = (props) => (
 
     <Grid container style={style.container}>
@@ -33,8 +34,6 @@ const WorkExp = (props) => (
         </Grid.Column>
         <Grid.Column className="" width={4}>
             <Message style={style.message}>
-                {/* <Header.Subheader as="h4" textAlign="left"> <p>Role</p></Header.Subheader> */}
-                {/* <hr /> */}
                 <p>{props.work.title}</p>
                 <p>{props.work.years}</p>
                 <hr/>

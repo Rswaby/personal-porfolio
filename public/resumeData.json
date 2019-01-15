@@ -98,31 +98,31 @@
       "skills":[
         {
           "name":"Python",
-          "level":"70%"
+          "level":"70"
         },
         {
           "name":"Java",
-          "level":"65%"
+          "level":"65"
         },
         {
           "name":"JavaScript",
-          "level":"60%"
+          "level":"60"
         },
         {
           "name":"ReactJs",
-          "level":"80%"
+          "level":"80"
         },
         {
           "name":"HTML & CSS",
-          "level":"70%"
+          "level":"40"
         },
         {
           "name":"Django",
-          "level":"80%"
+          "level":"80"
         },
         {
           "name":"Spring Boot",
-          "level":"70%"
+          "level":"70"
         }
       ]
     },
