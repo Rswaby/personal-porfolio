@@ -9,7 +9,7 @@ before_script:
     - rm -rf node_modules && rm -f package-lock.json
     - npm install
 script:
-   - npm test #Runs Tests
+   - npm test #Runs Test
    - npm run build #Creats a production build
 
 deploy:
