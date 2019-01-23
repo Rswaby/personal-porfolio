@@ -6,11 +6,11 @@ cache:
    directories:
      - node_modules #Cache node_modules for faster builds
 before_script:
-      - rm -rf node_modules && rm -f package-lock.json
-      - npm install
+    - rm -rf node_modules && rm -f package-lock.json
+    - npm install
 script:
- - npm test #Runs Tests
- - npm run build #Creats a production build
+   - npm test #Runs Tests
+   - npm run build #Creats a production build
 
 deploy:
    provider: heroku
